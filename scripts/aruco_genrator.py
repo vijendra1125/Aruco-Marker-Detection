@@ -21,9 +21,9 @@ def generate_marker():
         img = aruco.drawMarker(aruco_dict, i, MARKER_DIM)
         plt.imshow(img, cmap=mpl.cm.gray, interpolation="nearest")
         plt.axis('off')
-        plt.savefig("data/marker_{}.pdf".format(i),
+        plt.savefig("../data/marker_{}.pdf".format(i),
                     papertype='a4', orientation='portrait', format='pdf')
-        plt.savefig("data/marker_{}.png".format(i))
+        plt.savefig("../data/marker_{}.png".format(i))
         if VIZ_BOOL:
             plt.show()
 

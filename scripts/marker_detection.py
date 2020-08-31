@@ -52,7 +52,7 @@ def detect_cam():
 
 
 def main():
-    # image = cv2.imread('data/marker_1.png')
+    # image = cv2.imread('../data/marker_1.png')
     # detect_image(image)
     detect_cam()
 
